@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Bengali&family=Poppins:wght@400;500&family=Rubik&display=swap');
+    
+    .card {
+        margin: auto;
+        margin-top: 2%;
+    }
+
+    .all-cards {
+        display: flex;
+        margin: 2%;
+        box-sizing: border-box;
+    }
+
+    .list li {
+        list-style: none;
+    }
+
+    /* .temp {
+        font-size: 3rem;
+    } */
+
+    .temp_weather {
+        display: flex;
+        flex-basis: row;
+        gap: 4%;
+    }
+
+    .weat {
+        margin-left: 45%;
+    }
+
+    .location {
+        display: flex;
+        gap: 66%;
+    }
+    ul{
+        padding-left: 0;
+    }
+
+    .card-body{
+        margin: 2%;
+    }
+    #wind_speed {
+        font-size: 2rem;
+    }
+
+    @media screen and (max-width :1236px) {
+        .all-cards{
+            display: block;
+        }   
+        .d-flex{
+            display: block;
+        }
+        .collapse:not(.show) {
+           display: block;
+        }
+    }
